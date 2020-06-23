@@ -1,3 +1,10 @@
+```
+pipx install 'git+git://github.com/matthewfranglen/flintrock@173-use-cluster-group'
+```
+
+This uses the cluster specific security group to add the client IP rules.
+This should address issue [173](https://github.com/nchammas/flintrock/issues/173).
+
 ![Flintrock logo](https://raw.githubusercontent.com/nchammas/flintrock/master/flintrock-logo.png)
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/nchammas/flintrock/blob/master/LICENSE)
